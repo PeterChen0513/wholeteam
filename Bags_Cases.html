@@ -1,0 +1,502 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Whole Team</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<meta name="keywords" content="">
+
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/responsiveslides.css">
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>    <!--圖片展示-->
+<script src="js/responsiveslides.min.js"></script>    <!--幻燈片-->
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	</script>
+
+	<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	<!---End-smoth-scrolling---->
+
+</head>
+<body>
+<!-- header -->
+	<div  id="home" class="contact">
+		<div class="clearfix"></div>
+		<div class="container">
+		<div class="header-bottom">
+			<div class="logo">
+				<h1><a href="index.html"><img src="images/logo.jpg" href="index.html" height="100" width="320"></a></h1>
+			</div>
+			<div class="top-menu">
+				<span class="menu"><img src="images/nav-icon.png" alt=""></span><!--畫面縮小圖示-->
+					<ul>
+						<nav class="cl-effect-5">
+						<li><a href="index.html"><span data-hover="HOME">HOME</span></a></li>
+						<li><a href="about.html"><span data-hover="about us">about us</span></a></li>
+						<li><a href="patents.html"><span data-hover="patents">patents</span></a></li>
+						<li><a href="works.html"><span data-hover="our works">our works</span></a></li>
+						<li><a href="clients.html"><span data-hover="clients">clients</span></a></li>
+						<li><a href="contact.html"><span data-hover="contact">contact</span></a></li>
+						</nav>
+					</ul>
+			<div class="clearfix"></div>
+			</div>
+			<!--script-nav-->
+			<script>
+			 $("span.menu").click(function(){
+			 $(".top-menu ul").slideToggle("slow" , function(){
+			 });
+			 });
+			</script>
+			<div class="clearfix"></div>
+		</div>
+		</div>
+	</div>
+<!-- header-section-ends -->
+	<div class="line container">
+		<h4>
+			<img src="images/index-line-green.gif" height="1" width="100%">
+		</h4>
+	</div>
+	<div class="container">
+	<div class="row">
+		<div id="nav"class="col-md-2">
+			<div class="nav-title">
+				<p>OUR WORKS</p>				
+			</div>
+			<div class="nav-left">
+				<ul>
+					<li><a href="works.html">USB &amp; Power Banks</a></li>
+					<li><a href="Bags_Cases.html">Bags &amp; Cases</a></li>
+					<li><a href="Cups_Bottles.html">Cups &amp; Bottles</a></li>
+					<li><a href="Caps_Hairbands.html">Caps &amp; Hairbands</a></li>
+					<li><a href="Apparel.html">Apparel</a></li>
+					<li><a href="Outdoor.html">Sports &amp; Travel</a></li>
+					<li><a href="Office.html">Office &amp; Desk</a></li>
+					<li><a href="Stationery.html">Stationery</a></li>
+					<li><a href="Keychains.html">Keychains &amp; Tags</a></li>
+					<li><a href="Toys.html">Toys</a></li>
+					<li><a href="Novelty.html">Novelty</a></li>
+					<li><a href="Print.html">Print &amp; Frames</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="ProductList" class="col-md-10">
+			<div class="ProductList-title">
+				<p>Bags &amp; Cases</p>
+				<span>Promotional bags always help you reaching out to your target customers. We have all sorts of bags such as lunch totes, messenger bags, carrier bags, drawstring bags, handbags, backpacks, cooler bags, shopper bags, purses, wallets and luggage, which all under reasonable prices and great quality. So if you plan to personalize any one of it, please let us know your precious idea.</span>
+			</div>
+			<div>
+				<ul>
+					<li class="USB_nav"><a href="#Handbags"><img src="images/Handbags.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Messenger"><img src="images/Messenger Bags.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Backpack"><img src="images/Backpack.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Plush"><img src="images/Plush Backpacks.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Shopper"><img src="images/Shopper Bags & Totes.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Drawstring"><img src="images/Drawstring Bags.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Lunch"><img src="images/Lunch Totes.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Cooler"><img src="images/Cooler bags.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Pop"><img src="images/Pop Up Bins.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Luggages"><img src="images/Luggages & Roller Bags.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Wallets"><img src="images/Wallets & Purses.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Tin_Cases"><img src="images/Tin Cases.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#CD"><img src="images/CD Cases.jpg" width="100%" height="100%" ></a></li>
+					<li class="USB_nav"><a href="#Ipad"><img src="images/Ipad Cases.jpg" width="100%" height="100%" ></a></li>
+				</ul>
+			</div>
+		<div class="Content">
+		<div class="clearfix"></div>
+			<div id="Handbags">
+				<p>Handbags</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Carnival Cruise Lines Carrier Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Carnival Cruise Lines Carrier Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Carnival Cruise Lines Carrier Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/DBI Sala Handbag DBI Sala.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/DBI Sala Handbag DBI Sala.png"  width="215px" height="200px"></a></li>
+					<li class="productname">DBI Sala Handbag DBI Sala</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/LYNX Handbag LYNX.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/LYNX Handbag LYNX.png"  width="215px" height="200px"></a></li>
+					<li class="productname">LYNX Handbag LYNX</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Ocean's Twelve Handbag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Ocean's Twelve Handbag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Ocean's Twelve Handbag</li>
+				</ul>
+			</div>	
+		<div class="clearfix"></div>
+			<div id="Messenger">
+				<p>Messenger Bags</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/AVCA Messenger Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/AVCA Messenger Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">AVCA Messenger Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Beowulf Messenger Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Beowulf Messenger Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Beowulf Messenger Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Chameleon Messanger Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Chameleon Messanger Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Chameleon Messanger Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Harry Potter  Messenger Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Harry Potter  Messenger Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Harry Potter  Messenger Bag</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Backpack">
+				<p>Backpack</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Finding Nemo Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Finding Nemo Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Finding Nemo Backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Avengers Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Avengers Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Avengers Backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Shrek Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Shrek Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Shrek Backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/The Ant Bully Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/The Ant Bully Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">The Ant Bully Backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Tonka Truck Bakcpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Tonka Truck Bakcpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Tonka Truck Bakcpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Titan A.E. Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Titan A.E. Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Titan A.E. Backpack</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Plush">
+				<p>Plush Backpacks</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Bugs Bunny Plush Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Bugs Bunny Plush Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Bugs Bunny Plush Backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Squid shape plush backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Squid shape plush backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Squid shape plush backpack</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Daffy Duck Plush Backpack.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Daffy Duck Plush Backpack.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Daffy Duck Plush Backpack</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Shopper">
+				<p>Shopper Bags &amp; Totes</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/ABC Family 25 Days of Christmas Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/ABC Family 25 Days of Christmas Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">ABC Family 25 Days of Christmas Tote</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/IMAX Shopper Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/IMAX Shopper Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">IMAX Shopper Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Miss Congeniality Shopper bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Miss Congeniality Shopper bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Miss Congeniality Shopper bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_CasesPOP 80's Canvas Tote POP.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/POP 80's Canvas Tote POP.png"  width="215px" height="200px"></a></li>
+					<li class="productname">POP 80's Canvas Tote POP</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Printed Shopper Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Printed Shopper Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Printed Shopper Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/SBHIS Tote SBHIS.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/SBHIS Tote SBHIS.png"  width="215px" height="200px"></a></li>
+					<li class="productname">SBHIS Tote SBHIS</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Team_Spirit Ribbon Handle Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Team_Spirit Ribbon Handle Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Team_Spirit Ribbon Handle Tote</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Free Birds Shopper Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Free Birds Shopper Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Free Birds Shopper Bag</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Drawstring">
+				<p>Drawstring Bags</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/GRACIE Drawstring bag GRACIE.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/GRACIE Drawstring bag GRACIE.png"  width="215px" height="200px"></a></li>
+					<li class="productname">GRACIE Drawstring bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Loews Hotels Drawstring bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Loews Hotels Drawstring bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Loews Hotels Drawstring bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Nacho Libre Drawstring bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Nacho Libre Drawstring bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Nacho Libre Drawstring bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Superman Drawstring bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Superman Drawstring bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Superman Drawstring bag</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Lunch">
+				<p>Lunch Totes</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Charlotte's Web Insulate Lunch Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Charlotte's Web Insulate Lunch Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Charlotte's Web Insulate Lunch Tote</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Frozen Lunch Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Frozen Lunch Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Frozen Lunch Tote</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Ice Age Insulate Lunch Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Ice Age Insulate Lunch Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Ice Age Insulate Lunch Tote</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Open Season Lunch Tote.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Open Season Lunch Tote.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Open Season Lunch Tote</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Cooler">
+				<p>Cooler bags</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Disney Cooler Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Disney Cooler Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Disney Cooler Bag</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Pop">
+				<p>Pop Up Bins</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Cars Pop Up Bin.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Cars Pop Up Bin.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Cars Pop Up Bin</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Toy Story Pop Up Bin.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Toy Story Pop Up Bin.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Toy Story Pop Up Bin</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Luggages">
+				<p>Luggages &amp; Roller Bags</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Barbie Luggage.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Barbie Luggage.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Barbie Luggage</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Blank Blavk Roller Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Blank Blavk Roller Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Blank Blavk Roller Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Shrek Luggage Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Shrek Luggage Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Shrek Luggage Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Spiderman Roller Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Spiderman Roller Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Spiderman Roller Bag</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Wallets">
+				<p>Wallets &amp; Purses</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/A-DO Canvas Walle.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/A-DO Canvas Walle.png"  width="215px" height="200px"></a></li>
+					<li class="productname">A-DO Canvas Wallet</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Coconut Purse.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Coconut Purse.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Coconut Purse</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Flag Purse.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Flag Purse.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Flag Purse</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Harry Poter Leather Wallet.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Harry Poter Leather Wallet.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Harry Poter Leather Wallet</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/IN-N-OUT Purse.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/IN-N-OUT Purse.png"  width="215px" height="200px"></a></li>
+					<li class="productname">IN-N-OUT Purse</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/IN-N-OUT Wallet.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/IN-N-OUT Wallet.png"  width="215px" height="200px"></a></li>
+					<li class="productname">IN-N-OUT Wallet</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Mirabilandia Ravenna coin purse.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Mirabilandia Ravenna coin purse.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Mirabilandia Ravenna coin purse</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Planet Apes Wallet.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Planet Apes Wallet.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Planet Apes Wallet</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Screen Actors Guild Wallet.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Screen Actors Guild Wallet.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Screen Actors Guild Wallet</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Women Coin Purse.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Women Coin Purse.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Women Coin Purse</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Tin_Cases">
+				<p>Tin Cases</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Charlie and the Chocolate Factory Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Charlie and the Chocolate Factory Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Charlie and the Chocolate Factory Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Custom Logo Printing Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Custom Logo Printing Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Custom Logo Printing Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/MLB Arizona DiamondBacks Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/MLB Arizona DiamondBacks Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">MLB Arizona DiamondBacks Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/MLB LosAngeles Dodgers Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/MLB LosAngeles Dodgers Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">MLB LosAngeles Dodgers Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/MLB LosAngeles Dodgers Tin Case1.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/MLB LosAngeles Dodgers Tin Case1.png"  width="215px" height="200px"></a></li>
+					<li class="productname">MLB LosAngeles Dodgers Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/MLB Tronto BlueJays Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/MLB Tronto BlueJays Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">MLB Tronto BlueJays Tin Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Skylanders Mini Lunch Tin Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Skylanders Mini Lunch Tin Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Skylanders Mini Lunch Tin Case</li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="CD">
+				<p>CD Cases</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Basketball CD Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Basketball CD Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Basketball CD Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Chip_Dale CD Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Chip_Dale CD Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Chip_Dale CD Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Fantasic 4 Round CD Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Fantasic 4 Round CD Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Fantasic 4 Round CD Case</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Harry Potter CD Case.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Harry Potter CD Case.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Harry Potter CD Case/li>
+				</ul>
+			</div>
+		<div class="clearfix"></div>
+			<div id="Ipad">
+				<p>Ipad Cases</p>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Blizzard Hearthstone IPAD Silicone Cover.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Blizzard Hearthstone IPAD Silicone Cover.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Blizzard Hearthstone IPAD Silicone Cover</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Disney Epic Mickey Cinch Pouch.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Disney Epic Mickey Cinch Pouch.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Disney Epic Mickey Cinch Pouch</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Leather Ipad Cover.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Leather Ipad Cover.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Leather Ipad Cover</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Neoprene Laptop Bag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Neoprene Laptop Bag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Neoprene Laptop Bag</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Pirates of the Caribbean Laptop Sleeve.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Pirates of the Caribbean Laptop Sleeve.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Pirates of the Caribbean Laptop Sleeve</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Bags_Cases/Woof Laptop Handbag.png" data-lightbox="image-1" title="Bags&amp;Cases"><img style="display: block;" src="images/Bags_Cases/Woof Laptop Handbag.png"  width="215px" height="200px"></a></li>
+					<li class="productname">Woof Laptop Handbag</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="line">
+		<h4>
+			<img src="images/index-line-green.gif" height="1" width="100%">
+		</h4>
+	</div>
+
+	<div class="contact-section">
+		<div class="container">
+			<div class="contact-grids">
+				<div class="col-md-7 contact-grid">
+				Copyright © 2016 Whole Team Co., All rights reserved.
+				<br>Use of this website signifies your agreement to the Terms of Use and Online Privacy Policy.
+				<br>5F., No.164, Xinhu 2nd Rd., Neihu Dist., Taipei City 114, Taiwan (R.O.C.)
+					<div class="icon">
+						<ul>
+							<ul>
+								<li><i class="message"></i></li>
+									<li><a href="mailto:example@mail.com">E-mail: nick@wholeteam.com.tw</a></li>
+							</ul>	
+							<ul>
+								<li><i class="phone"></i></li>
+									<li>Tel: +886 (0)2 2793 3010</li>
+								<li><i class="phone"></i></li>
+									<li>Tel: +886 (0)2 2793 3331</li>
+							</ul>		
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid" 	align="right">
+				<a href="Bags_CasesCN.html" class="">繁體中文</a><span class="">｜</span><a href="Bags_Cases.html" class="">ENGLISH</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+	

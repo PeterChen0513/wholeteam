@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Whole Team</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<meta name="keywords" content="">
+
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/responsiveslides.css">
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>    <!--圖片展示-->
+<script src="js/responsiveslides.min.js"></script>    <!--幻燈片-->
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	</script>
+
+	<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	<!---End-smoth-scrolling---->
+
+</head>
+<body>
+	<!-- header -->
+	<!-- header -->
+	<div class="header" id="home">
+		<div class="clearfix"></div>
+		<div class="container">
+		<div class="header-bottom">
+			<div class="logo">
+				<h1><a href="indexCN.html"><img src="images/logo.jpg" href="index.html" height="100" width="320"></a></h1>
+			</div>
+				<div class="top-menu">
+				<span class="menu"><img src="images/nav-icon.png" alt=""></span><!--畫面縮小圖示-->
+					<ul>
+						<nav class="cl-effect-5">
+						<li><a href="indexCN.html"><span data-hover="首頁">首頁</span></a></li>
+						<li><a href="aboutCN.html"><span data-hover="關於我們">關於我們</span></a></li>
+						<li><a href="patentsCN.html"><span data-hover="專利產品">專利產品</span></a></li>
+						<li><a href="worksCN.html"><span data-hover="成功案例">成功案例</span></a></li>
+						<li><a href="clientsCN.html"><span data-hover="合作夥伴">合作夥伴</span></a></li>
+						<li><a href="contactCN.html"><span data-hover="聯絡我們">聯絡我們</span></a></li>
+						</nav>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+					 <!--script-nav-->
+			 <script>
+			 $("span.menu").click(function(){
+			 $(".top-menu ul").slideToggle("slow" , function(){
+			 });
+			 });
+			 </script>
+			<div class="clearfix"></div>
+		</div>
+		</div>
+	</div>
+	<!-- header-section-ends -->
+	<div class="line container">
+		<h4>
+			<img src="images/index-line-green.gif" height="1" width="100%">
+		</h4>
+	</div>
+	<div class="container">
+	<div class="row">
+		<div id="nav"class="col-md-2">
+			<div class="nav-title">
+				<p>專利產品</p>				
+			</div>
+			<div class="nav-left">
+				<ul>
+					<li><a href="patentsCN.html">車用磁吸廣告</a></li>
+					<li><a href="ReflectiveTeeCN.html">螢光網袖反光T恤</a></li>
+					<li><a href="HandpaintingCN.html">手繪圖片</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="ProductList" class="col-md-10">
+			<div class="ProductList-title">
+				<p>車用磁吸裝飾</p>
+				<span>車用磁吸裝飾是近年來在歐美最受歡迎的廣告商品之一。
+				<br>其發明靈感來自於不小心忘在車頂上，進而吸引周遭路人注目的咖啡杯。 </br>
+				本公司的專利產品採用特殊的磁鐵設計與接面處理，可以讓您在高速行進中也能放心的將其放置在車上任何一處金屬接面處，並同時達到裝飾與廣告推廣的作用。
+				</span>
+			</div>
+			<div class="sample-contact">
+				<ul class="rslides">
+					<li><img src="images/Magnetic/sample1.png" width="944px" height="400px"></img></li> 
+					<li><img src="images/Magnetic/sample2.png" width="944px" height="400px"></img></li> 
+					<li><img src="images/Magnetic/sample.png" width="944px" height="400px"></img></li>
+				</ul>
+			</div>
+			<script>
+			  $(function() {
+				$(".rslides").responsiveSlides({
+					
+				});
+			  });
+			</script>
+			<div id="sample">
+			
+				<ul>
+					<li class="product"><a href="images/Magnetic/Disney Mickey.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Disney Mickey.png"  width="215px" height="100%"></a></li>
+					<li class="productname">尼士尼米奇</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Minnie Mouse.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Minnie Mouse.png"  width="215px" height="100%"></a></li>
+					<li class="productname">米妮老鼠</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Domo Domo君.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Domo Domo君.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Domo君</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Chameleon.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Chameleon.png"  width="215px" height="100%"></a></li>
+					<li class="productname">變色龍</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Elephant.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Elephant.png"  width="215px" height="100%"></a></li>
+					<li class="productname">大象造型</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Green Man.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Green Man.png"  width="215px" height="100%"></a></li>
+					<li class="productname">小綠人</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Hot Dog.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Hot Dog.png"  width="215px" height="100%"></a></li>
+					<li class="productname">熱狗</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Margaritaville Caribbean.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Margaritaville Caribbean.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Margaritaville Caribbean</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Jack in the Box.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Jack in the Box.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Jack in the Box美國速食店</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Jack Skellington.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Jack Skellington	.png"  width="215px" height="100%"></a></li>
+					<li class="productname">骷顱傑克</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Rubber Duck.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Rubber Duck.png"  width="215px" height="100%"></a></li>
+					<li class="productname">黃色小鴨</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/玩具總動員 Toy Story.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/玩具總動員 Toy Story.png"  width="215px" height="100%"></a></li>
+					<li class="productname">玩具總動員</li>
+				</ul>	
+				<ul>
+					<li class="product"><a href="images/Magnetic/金士頓科技公司Kingston Technology.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/金士頓科技公司Kingston Technology.png"  width="215px" height="100%"></a></li>
+					<li class="productname">金士頓科技公司</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/KIA Mouse.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/KIA Mouse.png"  width="215px" height="100%"></a></li>
+					<li class="productname">起亞鼠</li>
+				</ul>
+								
+				<ul>
+					<li class="product"><a href="images/Magnetic/76 Gas Station.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/76 Gas Station.png"  width="215px" height="100%"></a></li>
+					<li class="productname">76加油站</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Auto Club Speedway.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Auto Club Speedway.png"  width="215px" height="100%"></a></li>
+					<li class="productname">汽車俱樂部賽車場</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/British Petroleum.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/British Petroleum.png"  width="215px" height="100%"></a></li>
+					<li class="productname">英國石油</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Denver Broncos.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Denver Broncos.png"  width="215px" height="100%"></a></li>
+					<li class="productname">丹佛野馬</li>
+				</ul>
+				
+				
+				
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Frito-Lay.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Frito-Lay.png"  width="215px" height="100%"></a></li>
+					<li class="productname">菲多利</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Frito-Lay1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Frito-Lay1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">菲多利</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Golden State Warriors.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Golden State Warriors.png"  width="215px" height="100%"></a></li>
+					<li class="productname">金州勇士</li>
+				</ul>
+				
+				
+				
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/LA Galaxy.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/LA Galaxy.png"  width="215px" height="100%"></a></li>
+					<li class="productname">洛杉磯銀河隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Los Angeles Lakers.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Los Angeles Lakers.png"  width="215px" height="100%"></a></li>
+					<li class="productname">洛杉磯湖人</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Mega Millions Lottery.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Mega Millions Lottery.png"  width="215px" height="100%"></a></li>
+					<li class="productname">億萬樂透</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Mega Millions Lottery1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Mega Millions Lottery1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">億萬樂透</li>
+				</ul>
+				<!--
+				<ul>
+					<li class="product"><a href="images/Magnetic/Minnie PVC.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Minnie PVC.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Minnie PVC</li>
+				</ul>
+				-->
+				<ul>
+					<li class="product"><a href="images/Magnetic/New Orleans Saints.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/New Orleans Saints.png"  width="215px" height="100%"></a></li>
+					<li class="productname">紐澳良聖徒</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/New Orleans Saints1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/New Orleans Saints1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">紐澳良聖徒</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Ninja Assassin.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Ninja Assassin.png"  width="215px" height="100%"></a></li>
+					<li class="productname">忍者飛鏢</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/NOVA Systems PU Grenada.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/NOVA Systems PU Grenada.png"  width="215px" height="100%"></a></li>
+					<li class="productname">塑膠手榴彈</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Oregan University Football Team1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Oregan University Football Team1.png"  width="215px" height="100%"></a></li>
+					<li class="productname"> 奧勒岡大學美式足球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Oregan University Football Team.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Oregan University Football Team.png"  width="215px" height="100%"></a></li>
+					<li class="productname"> 奧勒岡大學美式足球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Oregon State University Football.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Oregon State University Football.png"  width="215px" height="100%"></a></li>
+					<li class="productname">奧瑞岡州立大學美式足球隊</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Pittsburgh Steelers.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Pittsburgh Steelers.png"  width="215px" height="100%"></a></li>
+					<li class="productname">匹茲堡鋼人</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Pittsburgh Steelers1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Pittsburgh Steelers1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">匹茲堡鋼人</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Sasjatchewan Roughriders Football.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Sasjatchewan Roughriders Football.png"  width="215px" height="100%"></a></li>
+					<li class="productname">薩斯喀徹溫騎兵</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Phoenix Suns.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Phoenix Suns.png"  width="215px" height="100%"></a></li>
+					<li class="productname">鳳凰城太陽</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/Quicksliver.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Quicksliver.png"  width="215px" height="100%"></a></li>
+					<li class="productname">快銀</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Rockstar Energy Drinks Rockstar.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Rockstar Energy Drinks Rockstar.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Rockstar能量飲料</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Rockstar Energy Drinks Rockstar1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Rockstar Energy Drinks Rockstar1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">Rockstar能量飲料</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/South Carolina Baseball.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/South Carolina Baseball.png"  width="215px" height="100%"></a></li>
+					<li class="productname">南加州大學棒球</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/University of Washington Football Team.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/University of Washington Football Team.png"  width="215px" height="100%"></a></li>
+					<li class="productname">華盛頓大學美式足球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/University of Washington Football Team1.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/University of Washington Football Team1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">華盛頓大學美式足球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/USC Basketball.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/USC Basketball.png"  width="215px" height="100%"></a></li>
+					<li class="productname">南加州大學籃球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/USC Football.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/USC Football.png"  width="215px" height="100%"></a></li>
+					<li class="productname">南加州大學美式足球隊</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/USC Traveler.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/USC Traveler.png"  width="215px" height="100%"></a></li>
+					<li class="productname">南加州大學吉祥物</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/Washington State University Football Team.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Washington State University Football Team.png"  width="215px" height="100%"></a></li>
+					<li class="productname">華盛頓州立大學美式足球隊</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/巨鴨奇兵 The Mighty Ducks.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/巨鴨奇兵 The Mighty Ducks.png"  width="215px" height="100%"></a></li>
+					<li class="productname">巨鴨奇兵</li>
+				</ul>
+				<ul>
+					<li class="product"><a href="images/Magnetic/西雅圖海鷹 Seattle Seahawks13.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/西雅圖海鷹 Seattle Seahawks1.png"  width="215px" height="100%"></a></li>
+					<li class="productname">西雅圖海鷹</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/西雅圖海鷹Seattle Seahawks.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/西雅圖海鷹Seattle Seahawks.png"  width="215px" height="100%"></a></li>
+					<li class="productname">西雅圖海鷹</li>
+				</ul>
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/洛杉磯天使Los Angeles Angels of Anaheim.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/洛杉磯天使Los Angeles Angels of Anaheim.png"  width="215px" height="100%"></a></li>
+					<li class="productname">洛杉磯天使</li>
+				</ul>	
+				
+				<ul>
+					<li class="product"><a href="images/Magnetic/紐約洋基隊 New York Yankees.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/紐約洋基隊 New York Yankees.png"  width="215px" height="100%"></a></li>
+					<li class="productname">紐約洋基隊</li>
+				</ul>	
+				<ul>
+					<li class="product"><a href="images/Magnetic/密爾瓦基釀酒人Milwaukee Brewers.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/密爾瓦基釀酒人Milwaukee Brewers.png"  width="215px" height="100%"></a></li>
+					<li class="productname">密爾瓦基釀酒人</li>
+				</ul>	
+				<ul>
+					<li class="product"><a href="images/Magnetic/華盛頓國民Washington Nationals.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/華盛頓國民Washington Nationals.png"  width="215px" height="100%"></a></li>
+					<li class="productname">華盛頓國民</li>
+				</ul>	
+				<ul>
+					<li class="product"><a href="images/Magnetic/費城聯Philadelphia Union.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/費城聯Philadelphia Union.png"  width="215px" height="100%"></a></li>
+					<li class="productname">費城聯</li>
+				</ul>
+								
+				<ul>
+					<li class="product"><a href="images/Magnetic/Seattle Sounders FC.png" data-lightbox="image-1" title="Magnetic"><img style="display: block;" src="images/Magnetic/Seattle Sounders FC.png"  width="215px" height="100%"></a></li>
+					<li class="productname">西雅圖海灣者</li>
+				</ul>
+
+			</div>	
+		</div>
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+	<div class="line">
+	<h4>
+		<img src="images/index-line-green.gif" height="1" width="100%">
+	</h4>
+	</div>
+	<div class="contact-section">
+		<div class="container">
+			<div class="contact-grids">
+				<div class="col-md-7 contact-grid">
+				Copyright © 2016 Whole Team Co., All rights reserved.
+				<br>Use of this website signifies your agreement to the Terms of Use and Online Privacy Policy.
+				<br>5F., No.164, Xinhu 2nd Rd., Neihu Dist., Taipei City 114, Taiwan (R.O.C.)
+				<div class="icon">
+					<ul>
+						<ul>
+							<li><i class="message"></i></li>
+								<li><a href="mailto:example@mail.com">E-mail: nick@wholeteam.com.tw</a></li>
+						</ul>	
+						<ul>
+							<li><i class="phone"></i></li>
+								<li>Tel: +886 (0)2 2793 3010</li>
+							<li><i class="phone"></i></li>
+								<li>Tel: +886 (0)2 2793 3331</li>
+						</ul>		
+					</ul>
+				</div>
+				</div>
+				<div class="contact-grid" 	align="right">
+				<a href="patentsCN.html" class="">繁體中文</a><span class="">｜</span><a href="patents	.html" class="">ENGLISH</a></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
