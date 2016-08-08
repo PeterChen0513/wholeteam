@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Whole Team</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+<meta name="keywords" content="">
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+<!--
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+		
+	  </script>
+
+	<!---- start-smoth-scrolling---->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+	<!---End-smoth-scrolling---->
+
+</head>
+<body>
+	<!-- header -->
+	<div class="header" id="home">
+		<div class="clearfix"></div>
+		<div class="container">
+		<div class="header-bottom">
+			<div class="logo">
+				<h1><a href="index.html"><img src="images/logo.jpg" href="index.html" height="100" width="320"></a></h1>
+			</div>
+				<div class="top-menu">
+				<span class="menu"><img src="images/nav-icon.png" alt=""></span><!--畫面縮小圖示-->
+					<ul>
+						<nav class="cl-effect-5">
+						<li><a href="index.html"><span data-hover="HOME">HOME</span></a></li>
+						<li><a href="about.html"><span data-hover="about us">about us</span></a></li>
+						<li><a href="patents.html"><span data-hover="patents">patents</span></a></li>
+						<li><a href="works.html"><span data-hover="our works">our works</span></a></li>
+						<li><a href="clients.html"><span data-hover="clients">clients</span></a></li>
+						<li><a href="contact.html"><span data-hover="contact">contact</span></a></li>
+						</nav>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+					 <!--script-nav-->
+			 <script>
+			 $("span.menu").click(function(){
+			 $(".top-menu ul").slideToggle("slow" , function(){
+			 });
+			 });
+			 </script>
+			<div class="clearfix"></div>
+		</div>
+		</div>
+	</div>
+	<!-- header-section-ends -->
+
+	<div class="container">
+		<div class="background" >
+		
+			<div class="about">
+				<h2>About us</h2>
+				<br>
+				<p>Whole Team Corporation is an OEM supplier with offices in Taiwan and China which fabricates all kinds of merchandises and promotional products for many industries and companies, from small start-ups to worldwide corporate organizations.
+				<br>
+				</br>
+				Since we have more than 30 years experience and have over 500 reliable cooperated factories in China, South East Asia and India, we always satisfy our customers with high quality products, competitive price and all-embracing services
+				<br>
+				</br>
+				We 100% sure having business with Whole Team would defiantly save your time and money. Please feel free to contact our team to help you get your brand noticed.
+			</div>
+		</div>
+	</div>
+	<div class="line">
+	<h4>
+		<img src="images/index-line-green.gif" height="1" width="100%" >
+	</h4>
+	</div>
+		<div class="contact-section">
+			<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-7 contact-grid">
+							Copyright © 2016 Whole Team Co, All righ reserred.
+						<br>Use of this website signifies your agreement to the Terms of Use and Online Privacy Policy.
+						<br>合鼎企業有限公司114台北市內湖區新湖二路164號5F</br>
+						
+					
+						<div class="icon">
+							<ul>
+								<ul>
+									<li><i class="message"></i></li>
+										<li><a href="mailto:example@mail.com">E-mail: nick@wholeteam.com.tw</a></li>
+								</ul>	
+								<ul>
+									<li><i class="phone"></i></li>
+										<li>Tel: +886 (0)2 2793 3010</li>
+									<li><i class="phone"></i></li>
+										<li>Tel: +886 (0)2 2793 3331</li>
+								</ul>		
+							</ul>
+						</div>
+						
+						
+					</div>
+					<div class="contact-grid" 	align="right">
+					<a href="aboutCN.html" class="">繁體中文</a><span class="">｜</span><a href="about.html" class="">ENGLISH</a></div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
